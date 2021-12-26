@@ -1,0 +1,13 @@
+C:\Users\matt\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/d/matt/workspace/cpp/algorithm-cpp
+    -- src/13-arrsum.cpp will be compiled to bin/13-arrsum
+    -- src/13-lcus.cpp will be compiled to bin/13-lcus
+    -- src/13-qjh.cpp will be compiled to bin/13-qjh
+    -- src/13-segs.cpp will be compiled to bin/13-segs
+    -- src/13-unique.cpp will be compiled to bin/13-unique
+    -- src/21-doubleLinkedList.cpp will be compiled to bin/21-doubleLinkedList
+    -- src/21-singleLinkedList.cpp will be compiled to bin/21-singleLinkedList
+    -- src/CompilerIdCXX-CMakeCXXCompilerId.cpp will be compiled to bin/CompilerIdCXX-CMakeCXXCompilerId
+    -- src/algorithm-cpp-main.cpp will be compiled to bin/algorithm-cpp-main
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug

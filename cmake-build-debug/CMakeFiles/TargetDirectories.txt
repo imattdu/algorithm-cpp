@@ -1,0 +1,11 @@
+/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/algorithm-cpp-main.dir
+/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir
+/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/21-doubleLinkedList.dir
+/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/13-unique.dir
+/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/13-segs.dir
+/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/13-qjh.dir
+/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/21-singleLinkedList.dir
+/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/13-lcus.dir
+/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/13-arrsum.dir

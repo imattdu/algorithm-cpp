@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/21-doubleLinkedList.dir/base/21/doubleLinkedList.cpp.o -o 21-doubleLinkedList.exe -Wl,--out-implib,lib21-doubleLinkedList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/13-arrsum.dir/base/13/arrsum.cpp.o -o 13-arrsum.exe -Wl,--out-implib,lib13-arrsum.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
