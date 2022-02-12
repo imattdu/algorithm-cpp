@@ -143,6 +143,32 @@ algorithm-cpp-main/fast:
 .PHONY : algorithm-cpp-main/fast
 
 #=============================================================================
+# Target rules for targets named 31-test1
+
+# Build rule for target.
+31-test1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 31-test1
+.PHONY : 31-test1
+
+# fast build rule for target.
+31-test1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test1.dir/build.make CMakeFiles/31-test1.dir/build
+.PHONY : 31-test1/fast
+
+#=============================================================================
+# Target rules for targets named 31-test
+
+# Build rule for target.
+31-test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 31-test
+.PHONY : 31-test
+
+# fast build rule for target.
+31-test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test.dir/build.make CMakeFiles/31-test.dir/build
+.PHONY : 31-test/fast
+
+#=============================================================================
 # Target rules for targets named CompilerIdCXX-CMakeCXXCompilerId
 
 # Build rule for target.
@@ -156,69 +182,43 @@ CompilerIdCXX-CMakeCXXCompilerId/fast:
 .PHONY : CompilerIdCXX-CMakeCXXCompilerId/fast
 
 #=============================================================================
-# Target rules for targets named 21-doubleLinkedList
+# Target rules for targets named 13-arrsum
 
 # Build rule for target.
-21-doubleLinkedList: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21-doubleLinkedList
-.PHONY : 21-doubleLinkedList
+13-arrsum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13-arrsum
+.PHONY : 13-arrsum
 
 # fast build rule for target.
-21-doubleLinkedList/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-doubleLinkedList.dir/build.make CMakeFiles/21-doubleLinkedList.dir/build
-.PHONY : 21-doubleLinkedList/fast
+13-arrsum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-arrsum.dir/build.make CMakeFiles/13-arrsum.dir/build
+.PHONY : 13-arrsum/fast
 
 #=============================================================================
-# Target rules for targets named 13-unique
+# Target rules for targets named stl-m_orderedmap
 
 # Build rule for target.
-13-unique: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13-unique
-.PHONY : 13-unique
+stl-m_orderedmap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl-m_orderedmap
+.PHONY : stl-m_orderedmap
 
 # fast build rule for target.
-13-unique/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-unique.dir/build.make CMakeFiles/13-unique.dir/build
-.PHONY : 13-unique/fast
+stl-m_orderedmap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-m_orderedmap.dir/build.make CMakeFiles/stl-m_orderedmap.dir/build
+.PHONY : stl-m_orderedmap/fast
 
 #=============================================================================
-# Target rules for targets named 13-segs
+# Target rules for targets named 31-arrangeNumber
 
 # Build rule for target.
-13-segs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13-segs
-.PHONY : 13-segs
+31-arrangeNumber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 31-arrangeNumber
+.PHONY : 31-arrangeNumber
 
 # fast build rule for target.
-13-segs/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-segs.dir/build.make CMakeFiles/13-segs.dir/build
-.PHONY : 13-segs/fast
-
-#=============================================================================
-# Target rules for targets named 13-qjh
-
-# Build rule for target.
-13-qjh: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13-qjh
-.PHONY : 13-qjh
-
-# fast build rule for target.
-13-qjh/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-qjh.dir/build.make CMakeFiles/13-qjh.dir/build
-.PHONY : 13-qjh/fast
-
-#=============================================================================
-# Target rules for targets named 21-singleLinkedList
-
-# Build rule for target.
-21-singleLinkedList: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21-singleLinkedList
-.PHONY : 21-singleLinkedList
-
-# fast build rule for target.
-21-singleLinkedList/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-singleLinkedList.dir/build.make CMakeFiles/21-singleLinkedList.dir/build
-.PHONY : 21-singleLinkedList/fast
+31-arrangeNumber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-arrangeNumber.dir/build.make CMakeFiles/31-arrangeNumber.dir/build
+.PHONY : 31-arrangeNumber/fast
 
 #=============================================================================
 # Target rules for targets named 13-lcus
@@ -234,17 +234,199 @@ CompilerIdCXX-CMakeCXXCompilerId/fast:
 .PHONY : 13-lcus/fast
 
 #=============================================================================
-# Target rules for targets named 13-arrsum
+# Target rules for targets named stl-stack_demo
 
 # Build rule for target.
-13-arrsum: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13-arrsum
-.PHONY : 13-arrsum
+stl-stack_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl-stack_demo
+.PHONY : stl-stack_demo
 
 # fast build rule for target.
-13-arrsum/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-arrsum.dir/build.make CMakeFiles/13-arrsum.dir/build
-.PHONY : 13-arrsum/fast
+stl-stack_demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-stack_demo.dir/build.make CMakeFiles/stl-stack_demo.dir/build
+.PHONY : stl-stack_demo/fast
+
+#=============================================================================
+# Target rules for targets named 21-singleLinkedList
+
+# Build rule for target.
+21-singleLinkedList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21-singleLinkedList
+.PHONY : 21-singleLinkedList
+
+# fast build rule for target.
+21-singleLinkedList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-singleLinkedList.dir/build.make CMakeFiles/21-singleLinkedList.dir/build
+.PHONY : 21-singleLinkedList/fast
+
+#=============================================================================
+# Target rules for targets named 21-trie
+
+# Build rule for target.
+21-trie: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21-trie
+.PHONY : 21-trie
+
+# fast build rule for target.
+21-trie/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-trie.dir/build.make CMakeFiles/21-trie.dir/build
+.PHONY : 21-trie/fast
+
+#=============================================================================
+# Target rules for targets named 13-qjh
+
+# Build rule for target.
+13-qjh: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13-qjh
+.PHONY : 13-qjh
+
+# fast build rule for target.
+13-qjh/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-qjh.dir/build.make CMakeFiles/13-qjh.dir/build
+.PHONY : 13-qjh/fast
+
+#=============================================================================
+# Target rules for targets named test-t1
+
+# Build rule for target.
+test-t1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test-t1
+.PHONY : test-t1
+
+# fast build rule for target.
+test-t1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test-t1.dir/build.make CMakeFiles/test-t1.dir/build
+.PHONY : test-t1/fast
+
+#=============================================================================
+# Target rules for targets named 31-bfs_11
+
+# Build rule for target.
+31-bfs_11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 31-bfs_11
+.PHONY : 31-bfs_11
+
+# fast build rule for target.
+31-bfs_11/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-bfs_11.dir/build.make CMakeFiles/31-bfs_11.dir/build
+.PHONY : 31-bfs_11/fast
+
+#=============================================================================
+# Target rules for targets named 21-union1
+
+# Build rule for target.
+21-union1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21-union1
+.PHONY : 21-union1
+
+# fast build rule for target.
+21-union1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union1.dir/build.make CMakeFiles/21-union1.dir/build
+.PHONY : 21-union1/fast
+
+#=============================================================================
+# Target rules for targets named 13-segs
+
+# Build rule for target.
+13-segs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13-segs
+.PHONY : 13-segs
+
+# fast build rule for target.
+13-segs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-segs.dir/build.make CMakeFiles/13-segs.dir/build
+.PHONY : 13-segs/fast
+
+#=============================================================================
+# Target rules for targets named 31-nQueen
+
+# Build rule for target.
+31-nQueen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 31-nQueen
+.PHONY : 31-nQueen
+
+# fast build rule for target.
+31-nQueen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-nQueen.dir/build.make CMakeFiles/31-nQueen.dir/build
+.PHONY : 31-nQueen/fast
+
+#=============================================================================
+# Target rules for targets named 21-doubleLinkedList
+
+# Build rule for target.
+21-doubleLinkedList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21-doubleLinkedList
+.PHONY : 21-doubleLinkedList
+
+# fast build rule for target.
+21-doubleLinkedList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-doubleLinkedList.dir/build.make CMakeFiles/21-doubleLinkedList.dir/build
+.PHONY : 21-doubleLinkedList/fast
+
+#=============================================================================
+# Target rules for targets named 21-headSort1
+
+# Build rule for target.
+21-headSort1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21-headSort1
+.PHONY : 21-headSort1
+
+# fast build rule for target.
+21-headSort1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-headSort1.dir/build.make CMakeFiles/21-headSort1.dir/build
+.PHONY : 21-headSort1/fast
+
+#=============================================================================
+# Target rules for targets named stl-deque_demo
+
+# Build rule for target.
+stl-deque_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl-deque_demo
+.PHONY : stl-deque_demo
+
+# fast build rule for target.
+stl-deque_demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-deque_demo.dir/build.make CMakeFiles/stl-deque_demo.dir/build
+.PHONY : stl-deque_demo/fast
+
+#=============================================================================
+# Target rules for targets named 21-union
+
+# Build rule for target.
+21-union: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21-union
+.PHONY : 21-union
+
+# fast build rule for target.
+21-union/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union.dir/build.make CMakeFiles/21-union.dir/build
+.PHONY : 21-union/fast
+
+#=============================================================================
+# Target rules for targets named 13-unique
+
+# Build rule for target.
+13-unique: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13-unique
+.PHONY : 13-unique
+
+# fast build rule for target.
+13-unique/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-unique.dir/build.make CMakeFiles/13-unique.dir/build
+.PHONY : 13-unique/fast
+
+#=============================================================================
+# Target rules for targets named 21-heapSort
+
+# Build rule for target.
+21-heapSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21-heapSort
+.PHONY : 21-heapSort
+
+# fast build rule for target.
+21-heapSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-heapSort.dir/build.make CMakeFiles/21-heapSort.dir/build
+.PHONY : 21-heapSort/fast
 
 CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.o: CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
 
@@ -435,6 +617,60 @@ base/21/doubleLinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-doubleLinkedList.dir/build.make CMakeFiles/21-doubleLinkedList.dir/base/21/doubleLinkedList.cpp.s
 .PHONY : base/21/doubleLinkedList.cpp.s
 
+base/21/headSort1.o: base/21/headSort1.cpp.o
+
+.PHONY : base/21/headSort1.o
+
+# target to build an object file
+base/21/headSort1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-headSort1.dir/build.make CMakeFiles/21-headSort1.dir/base/21/headSort1.cpp.o
+.PHONY : base/21/headSort1.cpp.o
+
+base/21/headSort1.i: base/21/headSort1.cpp.i
+
+.PHONY : base/21/headSort1.i
+
+# target to preprocess a source file
+base/21/headSort1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-headSort1.dir/build.make CMakeFiles/21-headSort1.dir/base/21/headSort1.cpp.i
+.PHONY : base/21/headSort1.cpp.i
+
+base/21/headSort1.s: base/21/headSort1.cpp.s
+
+.PHONY : base/21/headSort1.s
+
+# target to generate assembly for a file
+base/21/headSort1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-headSort1.dir/build.make CMakeFiles/21-headSort1.dir/base/21/headSort1.cpp.s
+.PHONY : base/21/headSort1.cpp.s
+
+base/21/heapSort.o: base/21/heapSort.cpp.o
+
+.PHONY : base/21/heapSort.o
+
+# target to build an object file
+base/21/heapSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-heapSort.dir/build.make CMakeFiles/21-heapSort.dir/base/21/heapSort.cpp.o
+.PHONY : base/21/heapSort.cpp.o
+
+base/21/heapSort.i: base/21/heapSort.cpp.i
+
+.PHONY : base/21/heapSort.i
+
+# target to preprocess a source file
+base/21/heapSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-heapSort.dir/build.make CMakeFiles/21-heapSort.dir/base/21/heapSort.cpp.i
+.PHONY : base/21/heapSort.cpp.i
+
+base/21/heapSort.s: base/21/heapSort.cpp.s
+
+.PHONY : base/21/heapSort.s
+
+# target to generate assembly for a file
+base/21/heapSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-heapSort.dir/build.make CMakeFiles/21-heapSort.dir/base/21/heapSort.cpp.s
+.PHONY : base/21/heapSort.cpp.s
+
 base/21/singleLinkedList.o: base/21/singleLinkedList.cpp.o
 
 .PHONY : base/21/singleLinkedList.o
@@ -461,6 +697,330 @@ base/21/singleLinkedList.s: base/21/singleLinkedList.cpp.s
 base/21/singleLinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-singleLinkedList.dir/build.make CMakeFiles/21-singleLinkedList.dir/base/21/singleLinkedList.cpp.s
 .PHONY : base/21/singleLinkedList.cpp.s
+
+base/21/trie.o: base/21/trie.cpp.o
+
+.PHONY : base/21/trie.o
+
+# target to build an object file
+base/21/trie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-trie.dir/build.make CMakeFiles/21-trie.dir/base/21/trie.cpp.o
+.PHONY : base/21/trie.cpp.o
+
+base/21/trie.i: base/21/trie.cpp.i
+
+.PHONY : base/21/trie.i
+
+# target to preprocess a source file
+base/21/trie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-trie.dir/build.make CMakeFiles/21-trie.dir/base/21/trie.cpp.i
+.PHONY : base/21/trie.cpp.i
+
+base/21/trie.s: base/21/trie.cpp.s
+
+.PHONY : base/21/trie.s
+
+# target to generate assembly for a file
+base/21/trie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-trie.dir/build.make CMakeFiles/21-trie.dir/base/21/trie.cpp.s
+.PHONY : base/21/trie.cpp.s
+
+base/21/union.o: base/21/union.cpp.o
+
+.PHONY : base/21/union.o
+
+# target to build an object file
+base/21/union.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union.dir/build.make CMakeFiles/21-union.dir/base/21/union.cpp.o
+.PHONY : base/21/union.cpp.o
+
+base/21/union.i: base/21/union.cpp.i
+
+.PHONY : base/21/union.i
+
+# target to preprocess a source file
+base/21/union.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union.dir/build.make CMakeFiles/21-union.dir/base/21/union.cpp.i
+.PHONY : base/21/union.cpp.i
+
+base/21/union.s: base/21/union.cpp.s
+
+.PHONY : base/21/union.s
+
+# target to generate assembly for a file
+base/21/union.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union.dir/build.make CMakeFiles/21-union.dir/base/21/union.cpp.s
+.PHONY : base/21/union.cpp.s
+
+base/21/union1.o: base/21/union1.cpp.o
+
+.PHONY : base/21/union1.o
+
+# target to build an object file
+base/21/union1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union1.dir/build.make CMakeFiles/21-union1.dir/base/21/union1.cpp.o
+.PHONY : base/21/union1.cpp.o
+
+base/21/union1.i: base/21/union1.cpp.i
+
+.PHONY : base/21/union1.i
+
+# target to preprocess a source file
+base/21/union1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union1.dir/build.make CMakeFiles/21-union1.dir/base/21/union1.cpp.i
+.PHONY : base/21/union1.cpp.i
+
+base/21/union1.s: base/21/union1.cpp.s
+
+.PHONY : base/21/union1.s
+
+# target to generate assembly for a file
+base/21/union1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union1.dir/build.make CMakeFiles/21-union1.dir/base/21/union1.cpp.s
+.PHONY : base/21/union1.cpp.s
+
+base/31/arrangeNumber.o: base/31/arrangeNumber.cpp.o
+
+.PHONY : base/31/arrangeNumber.o
+
+# target to build an object file
+base/31/arrangeNumber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-arrangeNumber.dir/build.make CMakeFiles/31-arrangeNumber.dir/base/31/arrangeNumber.cpp.o
+.PHONY : base/31/arrangeNumber.cpp.o
+
+base/31/arrangeNumber.i: base/31/arrangeNumber.cpp.i
+
+.PHONY : base/31/arrangeNumber.i
+
+# target to preprocess a source file
+base/31/arrangeNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-arrangeNumber.dir/build.make CMakeFiles/31-arrangeNumber.dir/base/31/arrangeNumber.cpp.i
+.PHONY : base/31/arrangeNumber.cpp.i
+
+base/31/arrangeNumber.s: base/31/arrangeNumber.cpp.s
+
+.PHONY : base/31/arrangeNumber.s
+
+# target to generate assembly for a file
+base/31/arrangeNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-arrangeNumber.dir/build.make CMakeFiles/31-arrangeNumber.dir/base/31/arrangeNumber.cpp.s
+.PHONY : base/31/arrangeNumber.cpp.s
+
+base/31/bfs_11.o: base/31/bfs_11.cpp.o
+
+.PHONY : base/31/bfs_11.o
+
+# target to build an object file
+base/31/bfs_11.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-bfs_11.dir/build.make CMakeFiles/31-bfs_11.dir/base/31/bfs_11.cpp.o
+.PHONY : base/31/bfs_11.cpp.o
+
+base/31/bfs_11.i: base/31/bfs_11.cpp.i
+
+.PHONY : base/31/bfs_11.i
+
+# target to preprocess a source file
+base/31/bfs_11.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-bfs_11.dir/build.make CMakeFiles/31-bfs_11.dir/base/31/bfs_11.cpp.i
+.PHONY : base/31/bfs_11.cpp.i
+
+base/31/bfs_11.s: base/31/bfs_11.cpp.s
+
+.PHONY : base/31/bfs_11.s
+
+# target to generate assembly for a file
+base/31/bfs_11.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-bfs_11.dir/build.make CMakeFiles/31-bfs_11.dir/base/31/bfs_11.cpp.s
+.PHONY : base/31/bfs_11.cpp.s
+
+base/31/nQueen.o: base/31/nQueen.cpp.o
+
+.PHONY : base/31/nQueen.o
+
+# target to build an object file
+base/31/nQueen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-nQueen.dir/build.make CMakeFiles/31-nQueen.dir/base/31/nQueen.cpp.o
+.PHONY : base/31/nQueen.cpp.o
+
+base/31/nQueen.i: base/31/nQueen.cpp.i
+
+.PHONY : base/31/nQueen.i
+
+# target to preprocess a source file
+base/31/nQueen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-nQueen.dir/build.make CMakeFiles/31-nQueen.dir/base/31/nQueen.cpp.i
+.PHONY : base/31/nQueen.cpp.i
+
+base/31/nQueen.s: base/31/nQueen.cpp.s
+
+.PHONY : base/31/nQueen.s
+
+# target to generate assembly for a file
+base/31/nQueen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-nQueen.dir/build.make CMakeFiles/31-nQueen.dir/base/31/nQueen.cpp.s
+.PHONY : base/31/nQueen.cpp.s
+
+base/31/test.o: base/31/test.cpp.o
+
+.PHONY : base/31/test.o
+
+# target to build an object file
+base/31/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test.dir/build.make CMakeFiles/31-test.dir/base/31/test.cpp.o
+.PHONY : base/31/test.cpp.o
+
+base/31/test.i: base/31/test.cpp.i
+
+.PHONY : base/31/test.i
+
+# target to preprocess a source file
+base/31/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test.dir/build.make CMakeFiles/31-test.dir/base/31/test.cpp.i
+.PHONY : base/31/test.cpp.i
+
+base/31/test.s: base/31/test.cpp.s
+
+.PHONY : base/31/test.s
+
+# target to generate assembly for a file
+base/31/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test.dir/build.make CMakeFiles/31-test.dir/base/31/test.cpp.s
+.PHONY : base/31/test.cpp.s
+
+base/31/test1.o: base/31/test1.cpp.o
+
+.PHONY : base/31/test1.o
+
+# target to build an object file
+base/31/test1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test1.dir/build.make CMakeFiles/31-test1.dir/base/31/test1.cpp.o
+.PHONY : base/31/test1.cpp.o
+
+base/31/test1.i: base/31/test1.cpp.i
+
+.PHONY : base/31/test1.i
+
+# target to preprocess a source file
+base/31/test1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test1.dir/build.make CMakeFiles/31-test1.dir/base/31/test1.cpp.i
+.PHONY : base/31/test1.cpp.i
+
+base/31/test1.s: base/31/test1.cpp.s
+
+.PHONY : base/31/test1.s
+
+# target to generate assembly for a file
+base/31/test1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test1.dir/build.make CMakeFiles/31-test1.dir/base/31/test1.cpp.s
+.PHONY : base/31/test1.cpp.s
+
+base/stl/deque_demo.o: base/stl/deque_demo.cpp.o
+
+.PHONY : base/stl/deque_demo.o
+
+# target to build an object file
+base/stl/deque_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-deque_demo.dir/build.make CMakeFiles/stl-deque_demo.dir/base/stl/deque_demo.cpp.o
+.PHONY : base/stl/deque_demo.cpp.o
+
+base/stl/deque_demo.i: base/stl/deque_demo.cpp.i
+
+.PHONY : base/stl/deque_demo.i
+
+# target to preprocess a source file
+base/stl/deque_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-deque_demo.dir/build.make CMakeFiles/stl-deque_demo.dir/base/stl/deque_demo.cpp.i
+.PHONY : base/stl/deque_demo.cpp.i
+
+base/stl/deque_demo.s: base/stl/deque_demo.cpp.s
+
+.PHONY : base/stl/deque_demo.s
+
+# target to generate assembly for a file
+base/stl/deque_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-deque_demo.dir/build.make CMakeFiles/stl-deque_demo.dir/base/stl/deque_demo.cpp.s
+.PHONY : base/stl/deque_demo.cpp.s
+
+base/stl/m_orderedmap.o: base/stl/m_orderedmap.cpp.o
+
+.PHONY : base/stl/m_orderedmap.o
+
+# target to build an object file
+base/stl/m_orderedmap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-m_orderedmap.dir/build.make CMakeFiles/stl-m_orderedmap.dir/base/stl/m_orderedmap.cpp.o
+.PHONY : base/stl/m_orderedmap.cpp.o
+
+base/stl/m_orderedmap.i: base/stl/m_orderedmap.cpp.i
+
+.PHONY : base/stl/m_orderedmap.i
+
+# target to preprocess a source file
+base/stl/m_orderedmap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-m_orderedmap.dir/build.make CMakeFiles/stl-m_orderedmap.dir/base/stl/m_orderedmap.cpp.i
+.PHONY : base/stl/m_orderedmap.cpp.i
+
+base/stl/m_orderedmap.s: base/stl/m_orderedmap.cpp.s
+
+.PHONY : base/stl/m_orderedmap.s
+
+# target to generate assembly for a file
+base/stl/m_orderedmap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-m_orderedmap.dir/build.make CMakeFiles/stl-m_orderedmap.dir/base/stl/m_orderedmap.cpp.s
+.PHONY : base/stl/m_orderedmap.cpp.s
+
+base/stl/stack_demo.o: base/stl/stack_demo.cpp.o
+
+.PHONY : base/stl/stack_demo.o
+
+# target to build an object file
+base/stl/stack_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-stack_demo.dir/build.make CMakeFiles/stl-stack_demo.dir/base/stl/stack_demo.cpp.o
+.PHONY : base/stl/stack_demo.cpp.o
+
+base/stl/stack_demo.i: base/stl/stack_demo.cpp.i
+
+.PHONY : base/stl/stack_demo.i
+
+# target to preprocess a source file
+base/stl/stack_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-stack_demo.dir/build.make CMakeFiles/stl-stack_demo.dir/base/stl/stack_demo.cpp.i
+.PHONY : base/stl/stack_demo.cpp.i
+
+base/stl/stack_demo.s: base/stl/stack_demo.cpp.s
+
+.PHONY : base/stl/stack_demo.s
+
+# target to generate assembly for a file
+base/stl/stack_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-stack_demo.dir/build.make CMakeFiles/stl-stack_demo.dir/base/stl/stack_demo.cpp.s
+.PHONY : base/stl/stack_demo.cpp.s
+
+base/test/t1.o: base/test/t1.cpp.o
+
+.PHONY : base/test/t1.o
+
+# target to build an object file
+base/test/t1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test-t1.dir/build.make CMakeFiles/test-t1.dir/base/test/t1.cpp.o
+.PHONY : base/test/t1.cpp.o
+
+base/test/t1.i: base/test/t1.cpp.i
+
+.PHONY : base/test/t1.i
+
+# target to preprocess a source file
+base/test/t1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test-t1.dir/build.make CMakeFiles/test-t1.dir/base/test/t1.cpp.i
+.PHONY : base/test/t1.cpp.i
+
+base/test/t1.s: base/test/t1.cpp.s
+
+.PHONY : base/test/t1.s
+
+# target to generate assembly for a file
+base/test/t1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test-t1.dir/build.make CMakeFiles/test-t1.dir/base/test/t1.cpp.s
+.PHONY : base/test/t1.cpp.s
 
 main.o: main.cpp.o
 
@@ -503,9 +1063,23 @@ help:
 	@echo "... 13-segs"
 	@echo "... 13-unique"
 	@echo "... 21-doubleLinkedList"
+	@echo "... 21-headSort1"
+	@echo "... 21-heapSort"
 	@echo "... 21-singleLinkedList"
+	@echo "... 21-trie"
+	@echo "... 21-union"
+	@echo "... 21-union1"
+	@echo "... 31-arrangeNumber"
+	@echo "... 31-bfs_11"
+	@echo "... 31-nQueen"
+	@echo "... 31-test"
+	@echo "... 31-test1"
 	@echo "... CompilerIdCXX-CMakeCXXCompilerId"
 	@echo "... algorithm-cpp-main"
+	@echo "... stl-deque_demo"
+	@echo "... stl-m_orderedmap"
+	@echo "... stl-stack_demo"
+	@echo "... test-t1"
 	@echo "... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.o"
 	@echo "... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.i"
 	@echo "... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.s"
@@ -527,9 +1101,51 @@ help:
 	@echo "... base/21/doubleLinkedList.o"
 	@echo "... base/21/doubleLinkedList.i"
 	@echo "... base/21/doubleLinkedList.s"
+	@echo "... base/21/headSort1.o"
+	@echo "... base/21/headSort1.i"
+	@echo "... base/21/headSort1.s"
+	@echo "... base/21/heapSort.o"
+	@echo "... base/21/heapSort.i"
+	@echo "... base/21/heapSort.s"
 	@echo "... base/21/singleLinkedList.o"
 	@echo "... base/21/singleLinkedList.i"
 	@echo "... base/21/singleLinkedList.s"
+	@echo "... base/21/trie.o"
+	@echo "... base/21/trie.i"
+	@echo "... base/21/trie.s"
+	@echo "... base/21/union.o"
+	@echo "... base/21/union.i"
+	@echo "... base/21/union.s"
+	@echo "... base/21/union1.o"
+	@echo "... base/21/union1.i"
+	@echo "... base/21/union1.s"
+	@echo "... base/31/arrangeNumber.o"
+	@echo "... base/31/arrangeNumber.i"
+	@echo "... base/31/arrangeNumber.s"
+	@echo "... base/31/bfs_11.o"
+	@echo "... base/31/bfs_11.i"
+	@echo "... base/31/bfs_11.s"
+	@echo "... base/31/nQueen.o"
+	@echo "... base/31/nQueen.i"
+	@echo "... base/31/nQueen.s"
+	@echo "... base/31/test.o"
+	@echo "... base/31/test.i"
+	@echo "... base/31/test.s"
+	@echo "... base/31/test1.o"
+	@echo "... base/31/test1.i"
+	@echo "... base/31/test1.s"
+	@echo "... base/stl/deque_demo.o"
+	@echo "... base/stl/deque_demo.i"
+	@echo "... base/stl/deque_demo.s"
+	@echo "... base/stl/m_orderedmap.o"
+	@echo "... base/stl/m_orderedmap.i"
+	@echo "... base/stl/m_orderedmap.s"
+	@echo "... base/stl/stack_demo.o"
+	@echo "... base/stl/stack_demo.i"
+	@echo "... base/stl/stack_demo.s"
+	@echo "... base/test/t1.o"
+	@echo "... base/test/t1.i"
+	@echo "... base/test/t1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

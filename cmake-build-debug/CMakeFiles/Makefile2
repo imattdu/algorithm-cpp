@@ -73,14 +73,28 @@ CMAKE_BINARY_DIR = /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debu
 
 # The main recursive "all" target.
 all: CMakeFiles/algorithm-cpp-main.dir/all
+all: CMakeFiles/31-test1.dir/all
+all: CMakeFiles/31-test.dir/all
 all: CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/all
-all: CMakeFiles/21-doubleLinkedList.dir/all
-all: CMakeFiles/13-unique.dir/all
-all: CMakeFiles/13-segs.dir/all
-all: CMakeFiles/13-qjh.dir/all
-all: CMakeFiles/21-singleLinkedList.dir/all
-all: CMakeFiles/13-lcus.dir/all
 all: CMakeFiles/13-arrsum.dir/all
+all: CMakeFiles/stl-m_orderedmap.dir/all
+all: CMakeFiles/31-arrangeNumber.dir/all
+all: CMakeFiles/13-lcus.dir/all
+all: CMakeFiles/stl-stack_demo.dir/all
+all: CMakeFiles/21-singleLinkedList.dir/all
+all: CMakeFiles/21-trie.dir/all
+all: CMakeFiles/13-qjh.dir/all
+all: CMakeFiles/test-t1.dir/all
+all: CMakeFiles/31-bfs_11.dir/all
+all: CMakeFiles/21-union1.dir/all
+all: CMakeFiles/13-segs.dir/all
+all: CMakeFiles/31-nQueen.dir/all
+all: CMakeFiles/21-doubleLinkedList.dir/all
+all: CMakeFiles/21-headSort1.dir/all
+all: CMakeFiles/stl-deque_demo.dir/all
+all: CMakeFiles/21-union.dir/all
+all: CMakeFiles/13-unique.dir/all
+all: CMakeFiles/21-heapSort.dir/all
 
 .PHONY : all
 
@@ -91,14 +105,28 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/algorithm-cpp-main.dir/clean
+clean: CMakeFiles/31-test1.dir/clean
+clean: CMakeFiles/31-test.dir/clean
 clean: CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/clean
-clean: CMakeFiles/21-doubleLinkedList.dir/clean
-clean: CMakeFiles/13-unique.dir/clean
-clean: CMakeFiles/13-segs.dir/clean
-clean: CMakeFiles/13-qjh.dir/clean
-clean: CMakeFiles/21-singleLinkedList.dir/clean
-clean: CMakeFiles/13-lcus.dir/clean
 clean: CMakeFiles/13-arrsum.dir/clean
+clean: CMakeFiles/stl-m_orderedmap.dir/clean
+clean: CMakeFiles/31-arrangeNumber.dir/clean
+clean: CMakeFiles/13-lcus.dir/clean
+clean: CMakeFiles/stl-stack_demo.dir/clean
+clean: CMakeFiles/21-singleLinkedList.dir/clean
+clean: CMakeFiles/21-trie.dir/clean
+clean: CMakeFiles/13-qjh.dir/clean
+clean: CMakeFiles/test-t1.dir/clean
+clean: CMakeFiles/31-bfs_11.dir/clean
+clean: CMakeFiles/21-union1.dir/clean
+clean: CMakeFiles/13-segs.dir/clean
+clean: CMakeFiles/31-nQueen.dir/clean
+clean: CMakeFiles/21-doubleLinkedList.dir/clean
+clean: CMakeFiles/21-headSort1.dir/clean
+clean: CMakeFiles/stl-deque_demo.dir/clean
+clean: CMakeFiles/21-union.dir/clean
+clean: CMakeFiles/13-unique.dir/clean
+clean: CMakeFiles/21-heapSort.dir/clean
 
 .PHONY : clean
 
@@ -109,7 +137,7 @@ clean: CMakeFiles/13-arrsum.dir/clean
 CMakeFiles/algorithm-cpp-main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithm-cpp-main.dir/build.make CMakeFiles/algorithm-cpp-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithm-cpp-main.dir/build.make CMakeFiles/algorithm-cpp-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target algorithm-cpp-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target algorithm-cpp-main"
 .PHONY : CMakeFiles/algorithm-cpp-main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -130,13 +158,67 @@ CMakeFiles/algorithm-cpp-main.dir/clean:
 .PHONY : CMakeFiles/algorithm-cpp-main.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/31-test1.dir
+
+# All Build rule for target.
+CMakeFiles/31-test1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test1.dir/build.make CMakeFiles/31-test1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test1.dir/build.make CMakeFiles/31-test1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target 31-test1"
+.PHONY : CMakeFiles/31-test1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/31-test1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/31-test1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/31-test1.dir/rule
+
+# Convenience name for target.
+31-test1: CMakeFiles/31-test1.dir/rule
+
+.PHONY : 31-test1
+
+# clean rule for target.
+CMakeFiles/31-test1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test1.dir/build.make CMakeFiles/31-test1.dir/clean
+.PHONY : CMakeFiles/31-test1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/31-test.dir
+
+# All Build rule for target.
+CMakeFiles/31-test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test.dir/build.make CMakeFiles/31-test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test.dir/build.make CMakeFiles/31-test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target 31-test"
+.PHONY : CMakeFiles/31-test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/31-test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/31-test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/31-test.dir/rule
+
+# Convenience name for target.
+31-test: CMakeFiles/31-test.dir/rule
+
+.PHONY : 31-test
+
+# clean rule for target.
+CMakeFiles/31-test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test.dir/build.make CMakeFiles/31-test.dir/clean
+.PHONY : CMakeFiles/31-test.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir
 
 # All Build rule for target.
 CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/build.make CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/build.make CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target CompilerIdCXX-CMakeCXXCompilerId"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target CompilerIdCXX-CMakeCXXCompilerId"
 .PHONY : CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/all
 
 # Build rule for subdir invocation for target.
@@ -157,139 +239,85 @@ CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/clean:
 .PHONY : CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/21-doubleLinkedList.dir
+# Target rules for target CMakeFiles/13-arrsum.dir
 
 # All Build rule for target.
-CMakeFiles/21-doubleLinkedList.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-doubleLinkedList.dir/build.make CMakeFiles/21-doubleLinkedList.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-doubleLinkedList.dir/build.make CMakeFiles/21-doubleLinkedList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 21-doubleLinkedList"
-.PHONY : CMakeFiles/21-doubleLinkedList.dir/all
+CMakeFiles/13-arrsum.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-arrsum.dir/build.make CMakeFiles/13-arrsum.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-arrsum.dir/build.make CMakeFiles/13-arrsum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 13-arrsum"
+.PHONY : CMakeFiles/13-arrsum.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/21-doubleLinkedList.dir/rule: cmake_check_build_system
+CMakeFiles/13-arrsum.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/21-doubleLinkedList.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/13-arrsum.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/21-doubleLinkedList.dir/rule
+.PHONY : CMakeFiles/13-arrsum.dir/rule
 
 # Convenience name for target.
-21-doubleLinkedList: CMakeFiles/21-doubleLinkedList.dir/rule
+13-arrsum: CMakeFiles/13-arrsum.dir/rule
 
-.PHONY : 21-doubleLinkedList
+.PHONY : 13-arrsum
 
 # clean rule for target.
-CMakeFiles/21-doubleLinkedList.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-doubleLinkedList.dir/build.make CMakeFiles/21-doubleLinkedList.dir/clean
-.PHONY : CMakeFiles/21-doubleLinkedList.dir/clean
+CMakeFiles/13-arrsum.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-arrsum.dir/build.make CMakeFiles/13-arrsum.dir/clean
+.PHONY : CMakeFiles/13-arrsum.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/13-unique.dir
+# Target rules for target CMakeFiles/stl-m_orderedmap.dir
 
 # All Build rule for target.
-CMakeFiles/13-unique.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-unique.dir/build.make CMakeFiles/13-unique.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-unique.dir/build.make CMakeFiles/13-unique.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 13-unique"
-.PHONY : CMakeFiles/13-unique.dir/all
+CMakeFiles/stl-m_orderedmap.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-m_orderedmap.dir/build.make CMakeFiles/stl-m_orderedmap.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-m_orderedmap.dir/build.make CMakeFiles/stl-m_orderedmap.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target stl-m_orderedmap"
+.PHONY : CMakeFiles/stl-m_orderedmap.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/13-unique.dir/rule: cmake_check_build_system
+CMakeFiles/stl-m_orderedmap.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/13-unique.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stl-m_orderedmap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/13-unique.dir/rule
+.PHONY : CMakeFiles/stl-m_orderedmap.dir/rule
 
 # Convenience name for target.
-13-unique: CMakeFiles/13-unique.dir/rule
+stl-m_orderedmap: CMakeFiles/stl-m_orderedmap.dir/rule
 
-.PHONY : 13-unique
+.PHONY : stl-m_orderedmap
 
 # clean rule for target.
-CMakeFiles/13-unique.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-unique.dir/build.make CMakeFiles/13-unique.dir/clean
-.PHONY : CMakeFiles/13-unique.dir/clean
+CMakeFiles/stl-m_orderedmap.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-m_orderedmap.dir/build.make CMakeFiles/stl-m_orderedmap.dir/clean
+.PHONY : CMakeFiles/stl-m_orderedmap.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/13-segs.dir
+# Target rules for target CMakeFiles/31-arrangeNumber.dir
 
 # All Build rule for target.
-CMakeFiles/13-segs.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-segs.dir/build.make CMakeFiles/13-segs.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-segs.dir/build.make CMakeFiles/13-segs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 13-segs"
-.PHONY : CMakeFiles/13-segs.dir/all
+CMakeFiles/31-arrangeNumber.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-arrangeNumber.dir/build.make CMakeFiles/31-arrangeNumber.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-arrangeNumber.dir/build.make CMakeFiles/31-arrangeNumber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target 31-arrangeNumber"
+.PHONY : CMakeFiles/31-arrangeNumber.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/13-segs.dir/rule: cmake_check_build_system
+CMakeFiles/31-arrangeNumber.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/13-segs.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/31-arrangeNumber.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/13-segs.dir/rule
+.PHONY : CMakeFiles/31-arrangeNumber.dir/rule
 
 # Convenience name for target.
-13-segs: CMakeFiles/13-segs.dir/rule
+31-arrangeNumber: CMakeFiles/31-arrangeNumber.dir/rule
 
-.PHONY : 13-segs
-
-# clean rule for target.
-CMakeFiles/13-segs.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-segs.dir/build.make CMakeFiles/13-segs.dir/clean
-.PHONY : CMakeFiles/13-segs.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/13-qjh.dir
-
-# All Build rule for target.
-CMakeFiles/13-qjh.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-qjh.dir/build.make CMakeFiles/13-qjh.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-qjh.dir/build.make CMakeFiles/13-qjh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 13-qjh"
-.PHONY : CMakeFiles/13-qjh.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/13-qjh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/13-qjh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/13-qjh.dir/rule
-
-# Convenience name for target.
-13-qjh: CMakeFiles/13-qjh.dir/rule
-
-.PHONY : 13-qjh
+.PHONY : 31-arrangeNumber
 
 # clean rule for target.
-CMakeFiles/13-qjh.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-qjh.dir/build.make CMakeFiles/13-qjh.dir/clean
-.PHONY : CMakeFiles/13-qjh.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/21-singleLinkedList.dir
-
-# All Build rule for target.
-CMakeFiles/21-singleLinkedList.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-singleLinkedList.dir/build.make CMakeFiles/21-singleLinkedList.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-singleLinkedList.dir/build.make CMakeFiles/21-singleLinkedList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 21-singleLinkedList"
-.PHONY : CMakeFiles/21-singleLinkedList.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/21-singleLinkedList.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/21-singleLinkedList.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/21-singleLinkedList.dir/rule
-
-# Convenience name for target.
-21-singleLinkedList: CMakeFiles/21-singleLinkedList.dir/rule
-
-.PHONY : 21-singleLinkedList
-
-# clean rule for target.
-CMakeFiles/21-singleLinkedList.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-singleLinkedList.dir/build.make CMakeFiles/21-singleLinkedList.dir/clean
-.PHONY : CMakeFiles/21-singleLinkedList.dir/clean
+CMakeFiles/31-arrangeNumber.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-arrangeNumber.dir/build.make CMakeFiles/31-arrangeNumber.dir/clean
+.PHONY : CMakeFiles/31-arrangeNumber.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/13-lcus.dir
@@ -319,31 +347,409 @@ CMakeFiles/13-lcus.dir/clean:
 .PHONY : CMakeFiles/13-lcus.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/13-arrsum.dir
+# Target rules for target CMakeFiles/stl-stack_demo.dir
 
 # All Build rule for target.
-CMakeFiles/13-arrsum.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-arrsum.dir/build.make CMakeFiles/13-arrsum.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-arrsum.dir/build.make CMakeFiles/13-arrsum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 13-arrsum"
-.PHONY : CMakeFiles/13-arrsum.dir/all
+CMakeFiles/stl-stack_demo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-stack_demo.dir/build.make CMakeFiles/stl-stack_demo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-stack_demo.dir/build.make CMakeFiles/stl-stack_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target stl-stack_demo"
+.PHONY : CMakeFiles/stl-stack_demo.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/13-arrsum.dir/rule: cmake_check_build_system
+CMakeFiles/stl-stack_demo.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/13-arrsum.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stl-stack_demo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/13-arrsum.dir/rule
+.PHONY : CMakeFiles/stl-stack_demo.dir/rule
 
 # Convenience name for target.
-13-arrsum: CMakeFiles/13-arrsum.dir/rule
+stl-stack_demo: CMakeFiles/stl-stack_demo.dir/rule
 
-.PHONY : 13-arrsum
+.PHONY : stl-stack_demo
 
 # clean rule for target.
-CMakeFiles/13-arrsum.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-arrsum.dir/build.make CMakeFiles/13-arrsum.dir/clean
-.PHONY : CMakeFiles/13-arrsum.dir/clean
+CMakeFiles/stl-stack_demo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-stack_demo.dir/build.make CMakeFiles/stl-stack_demo.dir/clean
+.PHONY : CMakeFiles/stl-stack_demo.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/21-singleLinkedList.dir
+
+# All Build rule for target.
+CMakeFiles/21-singleLinkedList.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-singleLinkedList.dir/build.make CMakeFiles/21-singleLinkedList.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-singleLinkedList.dir/build.make CMakeFiles/21-singleLinkedList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target 21-singleLinkedList"
+.PHONY : CMakeFiles/21-singleLinkedList.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/21-singleLinkedList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/21-singleLinkedList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/21-singleLinkedList.dir/rule
+
+# Convenience name for target.
+21-singleLinkedList: CMakeFiles/21-singleLinkedList.dir/rule
+
+.PHONY : 21-singleLinkedList
+
+# clean rule for target.
+CMakeFiles/21-singleLinkedList.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-singleLinkedList.dir/build.make CMakeFiles/21-singleLinkedList.dir/clean
+.PHONY : CMakeFiles/21-singleLinkedList.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/21-trie.dir
+
+# All Build rule for target.
+CMakeFiles/21-trie.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-trie.dir/build.make CMakeFiles/21-trie.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-trie.dir/build.make CMakeFiles/21-trie.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target 21-trie"
+.PHONY : CMakeFiles/21-trie.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/21-trie.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/21-trie.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/21-trie.dir/rule
+
+# Convenience name for target.
+21-trie: CMakeFiles/21-trie.dir/rule
+
+.PHONY : 21-trie
+
+# clean rule for target.
+CMakeFiles/21-trie.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-trie.dir/build.make CMakeFiles/21-trie.dir/clean
+.PHONY : CMakeFiles/21-trie.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/13-qjh.dir
+
+# All Build rule for target.
+CMakeFiles/13-qjh.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-qjh.dir/build.make CMakeFiles/13-qjh.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-qjh.dir/build.make CMakeFiles/13-qjh.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 13-qjh"
+.PHONY : CMakeFiles/13-qjh.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/13-qjh.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/13-qjh.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/13-qjh.dir/rule
+
+# Convenience name for target.
+13-qjh: CMakeFiles/13-qjh.dir/rule
+
+.PHONY : 13-qjh
+
+# clean rule for target.
+CMakeFiles/13-qjh.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-qjh.dir/build.make CMakeFiles/13-qjh.dir/clean
+.PHONY : CMakeFiles/13-qjh.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test-t1.dir
+
+# All Build rule for target.
+CMakeFiles/test-t1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test-t1.dir/build.make CMakeFiles/test-t1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test-t1.dir/build.make CMakeFiles/test-t1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target test-t1"
+.PHONY : CMakeFiles/test-t1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test-t1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test-t1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test-t1.dir/rule
+
+# Convenience name for target.
+test-t1: CMakeFiles/test-t1.dir/rule
+
+.PHONY : test-t1
+
+# clean rule for target.
+CMakeFiles/test-t1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test-t1.dir/build.make CMakeFiles/test-t1.dir/clean
+.PHONY : CMakeFiles/test-t1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/31-bfs_11.dir
+
+# All Build rule for target.
+CMakeFiles/31-bfs_11.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-bfs_11.dir/build.make CMakeFiles/31-bfs_11.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-bfs_11.dir/build.make CMakeFiles/31-bfs_11.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target 31-bfs_11"
+.PHONY : CMakeFiles/31-bfs_11.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/31-bfs_11.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/31-bfs_11.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/31-bfs_11.dir/rule
+
+# Convenience name for target.
+31-bfs_11: CMakeFiles/31-bfs_11.dir/rule
+
+.PHONY : 31-bfs_11
+
+# clean rule for target.
+CMakeFiles/31-bfs_11.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-bfs_11.dir/build.make CMakeFiles/31-bfs_11.dir/clean
+.PHONY : CMakeFiles/31-bfs_11.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/21-union1.dir
+
+# All Build rule for target.
+CMakeFiles/21-union1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union1.dir/build.make CMakeFiles/21-union1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union1.dir/build.make CMakeFiles/21-union1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target 21-union1"
+.PHONY : CMakeFiles/21-union1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/21-union1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/21-union1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/21-union1.dir/rule
+
+# Convenience name for target.
+21-union1: CMakeFiles/21-union1.dir/rule
+
+.PHONY : 21-union1
+
+# clean rule for target.
+CMakeFiles/21-union1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union1.dir/build.make CMakeFiles/21-union1.dir/clean
+.PHONY : CMakeFiles/21-union1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/13-segs.dir
+
+# All Build rule for target.
+CMakeFiles/13-segs.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-segs.dir/build.make CMakeFiles/13-segs.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-segs.dir/build.make CMakeFiles/13-segs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 13-segs"
+.PHONY : CMakeFiles/13-segs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/13-segs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/13-segs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/13-segs.dir/rule
+
+# Convenience name for target.
+13-segs: CMakeFiles/13-segs.dir/rule
+
+.PHONY : 13-segs
+
+# clean rule for target.
+CMakeFiles/13-segs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-segs.dir/build.make CMakeFiles/13-segs.dir/clean
+.PHONY : CMakeFiles/13-segs.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/31-nQueen.dir
+
+# All Build rule for target.
+CMakeFiles/31-nQueen.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-nQueen.dir/build.make CMakeFiles/31-nQueen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-nQueen.dir/build.make CMakeFiles/31-nQueen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target 31-nQueen"
+.PHONY : CMakeFiles/31-nQueen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/31-nQueen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/31-nQueen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/31-nQueen.dir/rule
+
+# Convenience name for target.
+31-nQueen: CMakeFiles/31-nQueen.dir/rule
+
+.PHONY : 31-nQueen
+
+# clean rule for target.
+CMakeFiles/31-nQueen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-nQueen.dir/build.make CMakeFiles/31-nQueen.dir/clean
+.PHONY : CMakeFiles/31-nQueen.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/21-doubleLinkedList.dir
+
+# All Build rule for target.
+CMakeFiles/21-doubleLinkedList.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-doubleLinkedList.dir/build.make CMakeFiles/21-doubleLinkedList.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-doubleLinkedList.dir/build.make CMakeFiles/21-doubleLinkedList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target 21-doubleLinkedList"
+.PHONY : CMakeFiles/21-doubleLinkedList.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/21-doubleLinkedList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/21-doubleLinkedList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/21-doubleLinkedList.dir/rule
+
+# Convenience name for target.
+21-doubleLinkedList: CMakeFiles/21-doubleLinkedList.dir/rule
+
+.PHONY : 21-doubleLinkedList
+
+# clean rule for target.
+CMakeFiles/21-doubleLinkedList.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-doubleLinkedList.dir/build.make CMakeFiles/21-doubleLinkedList.dir/clean
+.PHONY : CMakeFiles/21-doubleLinkedList.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/21-headSort1.dir
+
+# All Build rule for target.
+CMakeFiles/21-headSort1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-headSort1.dir/build.make CMakeFiles/21-headSort1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-headSort1.dir/build.make CMakeFiles/21-headSort1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 21-headSort1"
+.PHONY : CMakeFiles/21-headSort1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/21-headSort1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/21-headSort1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/21-headSort1.dir/rule
+
+# Convenience name for target.
+21-headSort1: CMakeFiles/21-headSort1.dir/rule
+
+.PHONY : 21-headSort1
+
+# clean rule for target.
+CMakeFiles/21-headSort1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-headSort1.dir/build.make CMakeFiles/21-headSort1.dir/clean
+.PHONY : CMakeFiles/21-headSort1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stl-deque_demo.dir
+
+# All Build rule for target.
+CMakeFiles/stl-deque_demo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-deque_demo.dir/build.make CMakeFiles/stl-deque_demo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-deque_demo.dir/build.make CMakeFiles/stl-deque_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target stl-deque_demo"
+.PHONY : CMakeFiles/stl-deque_demo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stl-deque_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stl-deque_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stl-deque_demo.dir/rule
+
+# Convenience name for target.
+stl-deque_demo: CMakeFiles/stl-deque_demo.dir/rule
+
+.PHONY : stl-deque_demo
+
+# clean rule for target.
+CMakeFiles/stl-deque_demo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-deque_demo.dir/build.make CMakeFiles/stl-deque_demo.dir/clean
+.PHONY : CMakeFiles/stl-deque_demo.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/21-union.dir
+
+# All Build rule for target.
+CMakeFiles/21-union.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union.dir/build.make CMakeFiles/21-union.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union.dir/build.make CMakeFiles/21-union.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target 21-union"
+.PHONY : CMakeFiles/21-union.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/21-union.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/21-union.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/21-union.dir/rule
+
+# Convenience name for target.
+21-union: CMakeFiles/21-union.dir/rule
+
+.PHONY : 21-union
+
+# clean rule for target.
+CMakeFiles/21-union.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union.dir/build.make CMakeFiles/21-union.dir/clean
+.PHONY : CMakeFiles/21-union.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/13-unique.dir
+
+# All Build rule for target.
+CMakeFiles/13-unique.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-unique.dir/build.make CMakeFiles/13-unique.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-unique.dir/build.make CMakeFiles/13-unique.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 13-unique"
+.PHONY : CMakeFiles/13-unique.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/13-unique.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/13-unique.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/13-unique.dir/rule
+
+# Convenience name for target.
+13-unique: CMakeFiles/13-unique.dir/rule
+
+.PHONY : 13-unique
+
+# clean rule for target.
+CMakeFiles/13-unique.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-unique.dir/build.make CMakeFiles/13-unique.dir/clean
+.PHONY : CMakeFiles/13-unique.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/21-heapSort.dir
+
+# All Build rule for target.
+CMakeFiles/21-heapSort.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-heapSort.dir/build.make CMakeFiles/21-heapSort.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-heapSort.dir/build.make CMakeFiles/21-heapSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target 21-heapSort"
+.PHONY : CMakeFiles/21-heapSort.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/21-heapSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/21-heapSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/21-heapSort.dir/rule
+
+# Convenience name for target.
+21-heapSort: CMakeFiles/21-heapSort.dir/rule
+
+.PHONY : 21-heapSort
+
+# clean rule for target.
+CMakeFiles/21-heapSort.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-heapSort.dir/build.make CMakeFiles/21-heapSort.dir/clean
+.PHONY : CMakeFiles/21-heapSort.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

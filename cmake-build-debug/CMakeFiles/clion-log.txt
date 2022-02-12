@@ -5,7 +5,21 @@ C:\Users\matt\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -DC
     -- src/13-segs.cpp will be compiled to bin/13-segs
     -- src/13-unique.cpp will be compiled to bin/13-unique
     -- src/21-doubleLinkedList.cpp will be compiled to bin/21-doubleLinkedList
+    -- src/21-headSort1.cpp will be compiled to bin/21-headSort1
+    -- src/21-heapSort.cpp will be compiled to bin/21-heapSort
     -- src/21-singleLinkedList.cpp will be compiled to bin/21-singleLinkedList
+    -- src/21-trie.cpp will be compiled to bin/21-trie
+    -- src/21-union.cpp will be compiled to bin/21-union
+    -- src/21-union1.cpp will be compiled to bin/21-union1
+    -- src/31-arrangeNumber.cpp will be compiled to bin/31-arrangeNumber
+    -- src/31-bfs_11.cpp will be compiled to bin/31-bfs_11
+    -- src/31-nQueen.cpp will be compiled to bin/31-nQueen
+    -- src/31-test.cpp will be compiled to bin/31-test
+    -- src/31-test1.cpp will be compiled to bin/31-test1
+    -- src/stl-deque_demo.cpp will be compiled to bin/stl-deque_demo
+    -- src/stl-m_orderedmap.cpp will be compiled to bin/stl-m_orderedmap
+    -- src/stl-stack_demo.cpp will be compiled to bin/stl-stack_demo
+    -- src/test-t1.cpp will be compiled to bin/test-t1
     -- src/CompilerIdCXX-CMakeCXXCompilerId.cpp will be compiled to bin/CompilerIdCXX-CMakeCXXCompilerId
     -- src/algorithm-cpp-main.cpp will be compiled to bin/algorithm-cpp-main
 -- Configuring done
