@@ -1,4 +1,4 @@
-C:\Users\matt\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/d/matt/workspace/cpp/algorithm-cpp
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /Users/matt/workspace/cpp/algorithm-cpp
     -- src/13-arrsum.cpp will be compiled to bin/13-arrsum
     -- src/13-lcus.cpp will be compiled to bin/13-lcus
     -- src/13-qjh.cpp will be compiled to bin/13-qjh
@@ -13,9 +13,12 @@ C:\Users\matt\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -DC
     -- src/21-union1.cpp will be compiled to bin/21-union1
     -- src/31-arrangeNumber.cpp will be compiled to bin/31-arrangeNumber
     -- src/31-bfs_11.cpp will be compiled to bin/31-bfs_11
+    -- src/31-bfs_graph.cpp will be compiled to bin/31-bfs_graph
+    -- src/31-dfs_graph.cpp will be compiled to bin/31-dfs_graph
     -- src/31-nQueen.cpp will be compiled to bin/31-nQueen
     -- src/31-test.cpp will be compiled to bin/31-test
     -- src/31-test1.cpp will be compiled to bin/31-test1
+    -- src/31-test12.cpp will be compiled to bin/31-test12
     -- src/stl-deque_demo.cpp will be compiled to bin/stl-deque_demo
     -- src/stl-m_orderedmap.cpp will be compiled to bin/stl-m_orderedmap
     -- src/stl-stack_demo.cpp will be compiled to bin/stl-stack_demo
@@ -24,4 +27,4 @@ C:\Users\matt\AppData\Local\JetBrains\CLion2021.1\cygwin_cmake\bin\cmake.exe -DC
     -- src/algorithm-cpp-main.cpp will be compiled to bin/algorithm-cpp-main
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/d/matt/workspace/cpp/algorithm-cpp/cmake-build-debug
+-- Build files have been written to: /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug

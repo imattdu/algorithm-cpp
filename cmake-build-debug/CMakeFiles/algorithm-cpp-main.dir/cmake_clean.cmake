@@ -1,8 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/algorithm-cpp-main.dir/main.cpp.o"
-  "algorithm-cpp-main.exe"
+  "algorithm-cpp-main"
   "algorithm-cpp-main.pdb"
-  "libalgorithm-cpp-main.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
