@@ -143,6 +143,97 @@ test-t1/fast:
 .PHONY : test-t1/fast
 
 #=============================================================================
+# Target rules for targets named 32-test3
+
+# Build rule for target.
+32-test3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 32-test3
+.PHONY : 32-test3
+
+# fast build rule for target.
+32-test3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test3.dir/build.make CMakeFiles/32-test3.dir/build
+.PHONY : 32-test3/fast
+
+#=============================================================================
+# Target rules for targets named 32-test4
+
+# Build rule for target.
+32-test4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 32-test4
+.PHONY : 32-test4
+
+# fast build rule for target.
+32-test4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test4.dir/build.make CMakeFiles/32-test4.dir/build
+.PHONY : 32-test4/fast
+
+#=============================================================================
+# Target rules for targets named 32-test2
+
+# Build rule for target.
+32-test2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 32-test2
+.PHONY : 32-test2
+
+# fast build rule for target.
+32-test2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test2.dir/build.make CMakeFiles/32-test2.dir/build
+.PHONY : 32-test2/fast
+
+#=============================================================================
+# Target rules for targets named stl-deque_demo
+
+# Build rule for target.
+stl-deque_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl-deque_demo
+.PHONY : stl-deque_demo
+
+# fast build rule for target.
+stl-deque_demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-deque_demo.dir/build.make CMakeFiles/stl-deque_demo.dir/build
+.PHONY : stl-deque_demo/fast
+
+#=============================================================================
+# Target rules for targets named 32-test1
+
+# Build rule for target.
+32-test1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 32-test1
+.PHONY : 32-test1
+
+# fast build rule for target.
+32-test1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test1.dir/build.make CMakeFiles/32-test1.dir/build
+.PHONY : 32-test1/fast
+
+#=============================================================================
+# Target rules for targets named 32-dijkstra1
+
+# Build rule for target.
+32-dijkstra1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 32-dijkstra1
+.PHONY : 32-dijkstra1
+
+# fast build rule for target.
+32-dijkstra1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-dijkstra1.dir/build.make CMakeFiles/32-dijkstra1.dir/build
+.PHONY : 32-dijkstra1/fast
+
+#=============================================================================
+# Target rules for targets named 32-bellmanford
+
+# Build rule for target.
+32-bellmanford: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 32-bellmanford
+.PHONY : 32-bellmanford
+
+# fast build rule for target.
+32-bellmanford/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-bellmanford.dir/build.make CMakeFiles/32-bellmanford.dir/build
+.PHONY : 32-bellmanford/fast
+
+#=============================================================================
 # Target rules for targets named 31-bfs_11
 
 # Build rule for target.
@@ -195,6 +286,19 @@ test-t1/fast:
 .PHONY : 31-dfs_graph/fast
 
 #=============================================================================
+# Target rules for targets named 32-dijkstra2
+
+# Build rule for target.
+32-dijkstra2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 32-dijkstra2
+.PHONY : 32-dijkstra2
+
+# fast build rule for target.
+32-dijkstra2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-dijkstra2.dir/build.make CMakeFiles/32-dijkstra2.dir/build
+.PHONY : 32-dijkstra2/fast
+
+#=============================================================================
 # Target rules for targets named 31-bfs_graph
 
 # Build rule for target.
@@ -219,19 +323,6 @@ test-t1/fast:
 31-arrangeNumber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-arrangeNumber.dir/build.make CMakeFiles/31-arrangeNumber.dir/build
 .PHONY : 31-arrangeNumber/fast
-
-#=============================================================================
-# Target rules for targets named stl-deque_demo
-
-# Build rule for target.
-stl-deque_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stl-deque_demo
-.PHONY : stl-deque_demo
-
-# fast build rule for target.
-stl-deque_demo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-deque_demo.dir/build.make CMakeFiles/stl-deque_demo.dir/build
-.PHONY : stl-deque_demo/fast
 
 #=============================================================================
 # Target rules for targets named 31-test1
@@ -325,19 +416,6 @@ stl-deque_demo/fast:
 .PHONY : 21-doubleLinkedList/fast
 
 #=============================================================================
-# Target rules for targets named 21-union
-
-# Build rule for target.
-21-union: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21-union
-.PHONY : 21-union
-
-# fast build rule for target.
-21-union/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union.dir/build.make CMakeFiles/21-union.dir/build
-.PHONY : 21-union/fast
-
-#=============================================================================
 # Target rules for targets named stl-m_orderedmap
 
 # Build rule for target.
@@ -349,6 +427,19 @@ stl-m_orderedmap: cmake_check_build_system
 stl-m_orderedmap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-m_orderedmap.dir/build.make CMakeFiles/stl-m_orderedmap.dir/build
 .PHONY : stl-m_orderedmap/fast
+
+#=============================================================================
+# Target rules for targets named 21-union
+
+# Build rule for target.
+21-union: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21-union
+.PHONY : 21-union
+
+# fast build rule for target.
+21-union/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/21-union.dir/build.make CMakeFiles/21-union.dir/build
+.PHONY : 21-union/fast
 
 #=============================================================================
 # Target rules for targets named 21-headSort1
@@ -364,19 +455,6 @@ stl-m_orderedmap/fast:
 .PHONY : 21-headSort1/fast
 
 #=============================================================================
-# Target rules for targets named 13-arrsum
-
-# Build rule for target.
-13-arrsum: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13-arrsum
-.PHONY : 13-arrsum
-
-# fast build rule for target.
-13-arrsum/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-arrsum.dir/build.make CMakeFiles/13-arrsum.dir/build
-.PHONY : 13-arrsum/fast
-
-#=============================================================================
 # Target rules for targets named stl-stack_demo
 
 # Build rule for target.
@@ -388,6 +466,19 @@ stl-stack_demo: cmake_check_build_system
 stl-stack_demo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-stack_demo.dir/build.make CMakeFiles/stl-stack_demo.dir/build
 .PHONY : stl-stack_demo/fast
+
+#=============================================================================
+# Target rules for targets named 13-arrsum
+
+# Build rule for target.
+13-arrsum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13-arrsum
+.PHONY : 13-arrsum
+
+# fast build rule for target.
+13-arrsum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13-arrsum.dir/build.make CMakeFiles/13-arrsum.dir/build
+.PHONY : 13-arrsum/fast
 
 #=============================================================================
 # Target rules for targets named 31-test
@@ -958,6 +1049,174 @@ base/31/test12.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/31-test12.dir/build.make CMakeFiles/31-test12.dir/base/31/test12.cpp.s
 .PHONY : base/31/test12.cpp.s
 
+base/32/bellmanford.o: base/32/bellmanford.cpp.o
+.PHONY : base/32/bellmanford.o
+
+# target to build an object file
+base/32/bellmanford.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-bellmanford.dir/build.make CMakeFiles/32-bellmanford.dir/base/32/bellmanford.cpp.o
+.PHONY : base/32/bellmanford.cpp.o
+
+base/32/bellmanford.i: base/32/bellmanford.cpp.i
+.PHONY : base/32/bellmanford.i
+
+# target to preprocess a source file
+base/32/bellmanford.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-bellmanford.dir/build.make CMakeFiles/32-bellmanford.dir/base/32/bellmanford.cpp.i
+.PHONY : base/32/bellmanford.cpp.i
+
+base/32/bellmanford.s: base/32/bellmanford.cpp.s
+.PHONY : base/32/bellmanford.s
+
+# target to generate assembly for a file
+base/32/bellmanford.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-bellmanford.dir/build.make CMakeFiles/32-bellmanford.dir/base/32/bellmanford.cpp.s
+.PHONY : base/32/bellmanford.cpp.s
+
+base/32/dijkstra1.o: base/32/dijkstra1.cpp.o
+.PHONY : base/32/dijkstra1.o
+
+# target to build an object file
+base/32/dijkstra1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-dijkstra1.dir/build.make CMakeFiles/32-dijkstra1.dir/base/32/dijkstra1.cpp.o
+.PHONY : base/32/dijkstra1.cpp.o
+
+base/32/dijkstra1.i: base/32/dijkstra1.cpp.i
+.PHONY : base/32/dijkstra1.i
+
+# target to preprocess a source file
+base/32/dijkstra1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-dijkstra1.dir/build.make CMakeFiles/32-dijkstra1.dir/base/32/dijkstra1.cpp.i
+.PHONY : base/32/dijkstra1.cpp.i
+
+base/32/dijkstra1.s: base/32/dijkstra1.cpp.s
+.PHONY : base/32/dijkstra1.s
+
+# target to generate assembly for a file
+base/32/dijkstra1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-dijkstra1.dir/build.make CMakeFiles/32-dijkstra1.dir/base/32/dijkstra1.cpp.s
+.PHONY : base/32/dijkstra1.cpp.s
+
+base/32/dijkstra2.o: base/32/dijkstra2.cpp.o
+.PHONY : base/32/dijkstra2.o
+
+# target to build an object file
+base/32/dijkstra2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-dijkstra2.dir/build.make CMakeFiles/32-dijkstra2.dir/base/32/dijkstra2.cpp.o
+.PHONY : base/32/dijkstra2.cpp.o
+
+base/32/dijkstra2.i: base/32/dijkstra2.cpp.i
+.PHONY : base/32/dijkstra2.i
+
+# target to preprocess a source file
+base/32/dijkstra2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-dijkstra2.dir/build.make CMakeFiles/32-dijkstra2.dir/base/32/dijkstra2.cpp.i
+.PHONY : base/32/dijkstra2.cpp.i
+
+base/32/dijkstra2.s: base/32/dijkstra2.cpp.s
+.PHONY : base/32/dijkstra2.s
+
+# target to generate assembly for a file
+base/32/dijkstra2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-dijkstra2.dir/build.make CMakeFiles/32-dijkstra2.dir/base/32/dijkstra2.cpp.s
+.PHONY : base/32/dijkstra2.cpp.s
+
+base/32/test1.o: base/32/test1.cpp.o
+.PHONY : base/32/test1.o
+
+# target to build an object file
+base/32/test1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test1.dir/build.make CMakeFiles/32-test1.dir/base/32/test1.cpp.o
+.PHONY : base/32/test1.cpp.o
+
+base/32/test1.i: base/32/test1.cpp.i
+.PHONY : base/32/test1.i
+
+# target to preprocess a source file
+base/32/test1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test1.dir/build.make CMakeFiles/32-test1.dir/base/32/test1.cpp.i
+.PHONY : base/32/test1.cpp.i
+
+base/32/test1.s: base/32/test1.cpp.s
+.PHONY : base/32/test1.s
+
+# target to generate assembly for a file
+base/32/test1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test1.dir/build.make CMakeFiles/32-test1.dir/base/32/test1.cpp.s
+.PHONY : base/32/test1.cpp.s
+
+base/32/test2.o: base/32/test2.cpp.o
+.PHONY : base/32/test2.o
+
+# target to build an object file
+base/32/test2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test2.dir/build.make CMakeFiles/32-test2.dir/base/32/test2.cpp.o
+.PHONY : base/32/test2.cpp.o
+
+base/32/test2.i: base/32/test2.cpp.i
+.PHONY : base/32/test2.i
+
+# target to preprocess a source file
+base/32/test2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test2.dir/build.make CMakeFiles/32-test2.dir/base/32/test2.cpp.i
+.PHONY : base/32/test2.cpp.i
+
+base/32/test2.s: base/32/test2.cpp.s
+.PHONY : base/32/test2.s
+
+# target to generate assembly for a file
+base/32/test2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test2.dir/build.make CMakeFiles/32-test2.dir/base/32/test2.cpp.s
+.PHONY : base/32/test2.cpp.s
+
+base/32/test3.o: base/32/test3.cpp.o
+.PHONY : base/32/test3.o
+
+# target to build an object file
+base/32/test3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test3.dir/build.make CMakeFiles/32-test3.dir/base/32/test3.cpp.o
+.PHONY : base/32/test3.cpp.o
+
+base/32/test3.i: base/32/test3.cpp.i
+.PHONY : base/32/test3.i
+
+# target to preprocess a source file
+base/32/test3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test3.dir/build.make CMakeFiles/32-test3.dir/base/32/test3.cpp.i
+.PHONY : base/32/test3.cpp.i
+
+base/32/test3.s: base/32/test3.cpp.s
+.PHONY : base/32/test3.s
+
+# target to generate assembly for a file
+base/32/test3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test3.dir/build.make CMakeFiles/32-test3.dir/base/32/test3.cpp.s
+.PHONY : base/32/test3.cpp.s
+
+base/32/test4.o: base/32/test4.cpp.o
+.PHONY : base/32/test4.o
+
+# target to build an object file
+base/32/test4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test4.dir/build.make CMakeFiles/32-test4.dir/base/32/test4.cpp.o
+.PHONY : base/32/test4.cpp.o
+
+base/32/test4.i: base/32/test4.cpp.i
+.PHONY : base/32/test4.i
+
+# target to preprocess a source file
+base/32/test4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test4.dir/build.make CMakeFiles/32-test4.dir/base/32/test4.cpp.i
+.PHONY : base/32/test4.cpp.i
+
+base/32/test4.s: base/32/test4.cpp.s
+.PHONY : base/32/test4.s
+
+# target to generate assembly for a file
+base/32/test4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test4.dir/build.make CMakeFiles/32-test4.dir/base/32/test4.cpp.s
+.PHONY : base/32/test4.cpp.s
+
 base/stl/deque_demo.o: base/stl/deque_demo.cpp.o
 .PHONY : base/stl/deque_demo.o
 
@@ -1106,6 +1365,13 @@ help:
 	@echo "... 31-test"
 	@echo "... 31-test1"
 	@echo "... 31-test12"
+	@echo "... 32-bellmanford"
+	@echo "... 32-dijkstra1"
+	@echo "... 32-dijkstra2"
+	@echo "... 32-test1"
+	@echo "... 32-test2"
+	@echo "... 32-test3"
+	@echo "... 32-test4"
 	@echo "... CompilerIdCXX-CMakeCXXCompilerId"
 	@echo "... algorithm-cpp-main"
 	@echo "... stl-deque_demo"
@@ -1175,6 +1441,27 @@ help:
 	@echo "... base/31/test12.o"
 	@echo "... base/31/test12.i"
 	@echo "... base/31/test12.s"
+	@echo "... base/32/bellmanford.o"
+	@echo "... base/32/bellmanford.i"
+	@echo "... base/32/bellmanford.s"
+	@echo "... base/32/dijkstra1.o"
+	@echo "... base/32/dijkstra1.i"
+	@echo "... base/32/dijkstra1.s"
+	@echo "... base/32/dijkstra2.o"
+	@echo "... base/32/dijkstra2.i"
+	@echo "... base/32/dijkstra2.s"
+	@echo "... base/32/test1.o"
+	@echo "... base/32/test1.i"
+	@echo "... base/32/test1.s"
+	@echo "... base/32/test2.o"
+	@echo "... base/32/test2.i"
+	@echo "... base/32/test2.s"
+	@echo "... base/32/test3.o"
+	@echo "... base/32/test3.i"
+	@echo "... base/32/test3.s"
+	@echo "... base/32/test4.o"
+	@echo "... base/32/test4.i"
+	@echo "... base/32/test4.s"
 	@echo "... base/stl/deque_demo.o"
 	@echo "... base/stl/deque_demo.i"
 	@echo "... base/stl/deque_demo.s"

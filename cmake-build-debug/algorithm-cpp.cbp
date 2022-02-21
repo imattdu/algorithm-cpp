@@ -107,6 +107,286 @@
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="32-test3">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-test3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-test3"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32-test3/fast">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-test3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-test3/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32-test4">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-test4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-test4"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32-test4/fast">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-test4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-test4/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32-test2">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-test2"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32-test2/fast">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-test2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-test2/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stl-deque_demo">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/stl-deque_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 stl-deque_demo"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stl-deque_demo/fast">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/stl-deque_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 stl-deque_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32-test1">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-test1"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32-test1/fast">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-test1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-test1/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32-dijkstra1">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-dijkstra1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-dijkstra1"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32-dijkstra1/fast">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-dijkstra1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-dijkstra1/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32-bellmanford">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-bellmanford" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-bellmanford"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32-bellmanford/fast">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-bellmanford" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-bellmanford/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="31-bfs_11">
 				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/31-bfs_11" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
@@ -267,6 +547,46 @@
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="32-dijkstra2">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-dijkstra2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-dijkstra2"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="32-dijkstra2/fast">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/32-dijkstra2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 32-dijkstra2/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="31-bfs_graph">
 				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/31-bfs_graph" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
@@ -352,46 +672,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 31-arrangeNumber/fast"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="stl-deque_demo">
-				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/stl-deque_demo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 stl-deque_demo"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="stl-deque_demo/fast">
-				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/stl-deque_demo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 stl-deque_demo/fast"/>
 					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -677,46 +957,6 @@
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="21-union">
-				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/21-union" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 21-union"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="21-union/fast">
-				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/21-union" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 21-union/fast"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="stl-m_orderedmap">
 				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/stl-m_orderedmap" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
@@ -752,6 +992,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 stl-m_orderedmap/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="21-union">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/21-union" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 21-union"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="21-union/fast">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/21-union" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 21-union/fast"/>
 					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -797,46 +1077,6 @@
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="13-arrsum">
-				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/13-arrsum" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 13-arrsum"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="13-arrsum/fast">
-				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/13-arrsum" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 13-arrsum/fast"/>
-					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="stl-stack_demo">
 				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/stl-stack_demo" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
@@ -872,6 +1112,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 stl-stack_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="13-arrsum">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/13-arrsum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 13-arrsum"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="13-arrsum/fast">
+				<Option output="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/13-arrsum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 13-arrsum/fast"/>
 					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1137,6 +1417,27 @@
 		</Unit>
 		<Unit filename="/Users/matt/workspace/cpp/algorithm-cpp/base/31/test12.cpp">
 			<Option target="31-test12"/>
+		</Unit>
+		<Unit filename="/Users/matt/workspace/cpp/algorithm-cpp/base/32/bellmanford.cpp">
+			<Option target="32-bellmanford"/>
+		</Unit>
+		<Unit filename="/Users/matt/workspace/cpp/algorithm-cpp/base/32/dijkstra1.cpp">
+			<Option target="32-dijkstra1"/>
+		</Unit>
+		<Unit filename="/Users/matt/workspace/cpp/algorithm-cpp/base/32/dijkstra2.cpp">
+			<Option target="32-dijkstra2"/>
+		</Unit>
+		<Unit filename="/Users/matt/workspace/cpp/algorithm-cpp/base/32/test1.cpp">
+			<Option target="32-test1"/>
+		</Unit>
+		<Unit filename="/Users/matt/workspace/cpp/algorithm-cpp/base/32/test2.cpp">
+			<Option target="32-test2"/>
+		</Unit>
+		<Unit filename="/Users/matt/workspace/cpp/algorithm-cpp/base/32/test3.cpp">
+			<Option target="32-test3"/>
+		</Unit>
+		<Unit filename="/Users/matt/workspace/cpp/algorithm-cpp/base/32/test4.cpp">
+			<Option target="32-test4"/>
 		</Unit>
 		<Unit filename="/Users/matt/workspace/cpp/algorithm-cpp/base/stl/deque_demo.cpp">
 			<Option target="stl-deque_demo"/>
