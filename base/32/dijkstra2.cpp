@@ -6,7 +6,7 @@ using namespace std;
 
 typedef pair<int, int> PII;
 
-const int N = 100010; // 把N改为150010就能ac
+const int N = 150010; // 把N改为150010就能ac
 
 // 稀疏图用邻接表来存
 int h[N], e[N], ne[N], idx;
@@ -71,4 +71,3 @@ int main()
 
     return 0;
 }
-
