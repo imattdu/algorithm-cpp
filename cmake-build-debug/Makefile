@@ -143,6 +143,32 @@ test-t1/fast:
 .PHONY : test-t1/fast
 
 #=============================================================================
+# Target rules for targets named 33-test1
+
+# Build rule for target.
+33-test1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 33-test1
+.PHONY : 33-test1
+
+# fast build rule for target.
+33-test1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-test1.dir/build.make CMakeFiles/33-test1.dir/build
+.PHONY : 33-test1/fast
+
+#=============================================================================
+# Target rules for targets named 33-t1
+
+# Build rule for target.
+33-t1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 33-t1
+.PHONY : 33-t1
+
+# fast build rule for target.
+33-t1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-t1.dir/build.make CMakeFiles/33-t1.dir/build
+.PHONY : 33-t1/fast
+
+#=============================================================================
 # Target rules for targets named 32-test3
 
 # Build rule for target.
@@ -286,6 +312,19 @@ stl-deque_demo/fast:
 .PHONY : 31-dfs_graph/fast
 
 #=============================================================================
+# Target rules for targets named 33-prim1
+
+# Build rule for target.
+33-prim1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 33-prim1
+.PHONY : 33-prim1
+
+# fast build rule for target.
+33-prim1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim1.dir/build.make CMakeFiles/33-prim1.dir/build
+.PHONY : 33-prim1/fast
+
+#=============================================================================
 # Target rules for targets named 32-dijkstra2
 
 # Build rule for target.
@@ -297,6 +336,19 @@ stl-deque_demo/fast:
 32-dijkstra2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-dijkstra2.dir/build.make CMakeFiles/32-dijkstra2.dir/build
 .PHONY : 32-dijkstra2/fast
+
+#=============================================================================
+# Target rules for targets named 33-prim
+
+# Build rule for target.
+33-prim: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 33-prim
+.PHONY : 33-prim
+
+# fast build rule for target.
+33-prim/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim.dir/build.make CMakeFiles/33-prim.dir/build
+.PHONY : 33-prim/fast
 
 #=============================================================================
 # Target rules for targets named 31-bfs_graph
@@ -427,6 +479,19 @@ stl-m_orderedmap: cmake_check_build_system
 stl-m_orderedmap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-m_orderedmap.dir/build.make CMakeFiles/stl-m_orderedmap.dir/build
 .PHONY : stl-m_orderedmap/fast
+
+#=============================================================================
+# Target rules for targets named 33-hungary
+
+# Build rule for target.
+33-hungary: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 33-hungary
+.PHONY : 33-hungary
+
+# fast build rule for target.
+33-hungary/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-hungary.dir/build.make CMakeFiles/33-hungary.dir/build
+.PHONY : 33-hungary/fast
 
 #=============================================================================
 # Target rules for targets named 21-union
@@ -1217,6 +1282,126 @@ base/32/test4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-test4.dir/build.make CMakeFiles/32-test4.dir/base/32/test4.cpp.s
 .PHONY : base/32/test4.cpp.s
 
+base/33/hungary.o: base/33/hungary.cpp.o
+.PHONY : base/33/hungary.o
+
+# target to build an object file
+base/33/hungary.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-hungary.dir/build.make CMakeFiles/33-hungary.dir/base/33/hungary.cpp.o
+.PHONY : base/33/hungary.cpp.o
+
+base/33/hungary.i: base/33/hungary.cpp.i
+.PHONY : base/33/hungary.i
+
+# target to preprocess a source file
+base/33/hungary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-hungary.dir/build.make CMakeFiles/33-hungary.dir/base/33/hungary.cpp.i
+.PHONY : base/33/hungary.cpp.i
+
+base/33/hungary.s: base/33/hungary.cpp.s
+.PHONY : base/33/hungary.s
+
+# target to generate assembly for a file
+base/33/hungary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-hungary.dir/build.make CMakeFiles/33-hungary.dir/base/33/hungary.cpp.s
+.PHONY : base/33/hungary.cpp.s
+
+base/33/prim.o: base/33/prim.cpp.o
+.PHONY : base/33/prim.o
+
+# target to build an object file
+base/33/prim.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim.dir/build.make CMakeFiles/33-prim.dir/base/33/prim.cpp.o
+.PHONY : base/33/prim.cpp.o
+
+base/33/prim.i: base/33/prim.cpp.i
+.PHONY : base/33/prim.i
+
+# target to preprocess a source file
+base/33/prim.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim.dir/build.make CMakeFiles/33-prim.dir/base/33/prim.cpp.i
+.PHONY : base/33/prim.cpp.i
+
+base/33/prim.s: base/33/prim.cpp.s
+.PHONY : base/33/prim.s
+
+# target to generate assembly for a file
+base/33/prim.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim.dir/build.make CMakeFiles/33-prim.dir/base/33/prim.cpp.s
+.PHONY : base/33/prim.cpp.s
+
+base/33/prim1.o: base/33/prim1.cpp.o
+.PHONY : base/33/prim1.o
+
+# target to build an object file
+base/33/prim1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim1.dir/build.make CMakeFiles/33-prim1.dir/base/33/prim1.cpp.o
+.PHONY : base/33/prim1.cpp.o
+
+base/33/prim1.i: base/33/prim1.cpp.i
+.PHONY : base/33/prim1.i
+
+# target to preprocess a source file
+base/33/prim1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim1.dir/build.make CMakeFiles/33-prim1.dir/base/33/prim1.cpp.i
+.PHONY : base/33/prim1.cpp.i
+
+base/33/prim1.s: base/33/prim1.cpp.s
+.PHONY : base/33/prim1.s
+
+# target to generate assembly for a file
+base/33/prim1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim1.dir/build.make CMakeFiles/33-prim1.dir/base/33/prim1.cpp.s
+.PHONY : base/33/prim1.cpp.s
+
+base/33/t1.o: base/33/t1.cpp.o
+.PHONY : base/33/t1.o
+
+# target to build an object file
+base/33/t1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-t1.dir/build.make CMakeFiles/33-t1.dir/base/33/t1.cpp.o
+.PHONY : base/33/t1.cpp.o
+
+base/33/t1.i: base/33/t1.cpp.i
+.PHONY : base/33/t1.i
+
+# target to preprocess a source file
+base/33/t1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-t1.dir/build.make CMakeFiles/33-t1.dir/base/33/t1.cpp.i
+.PHONY : base/33/t1.cpp.i
+
+base/33/t1.s: base/33/t1.cpp.s
+.PHONY : base/33/t1.s
+
+# target to generate assembly for a file
+base/33/t1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-t1.dir/build.make CMakeFiles/33-t1.dir/base/33/t1.cpp.s
+.PHONY : base/33/t1.cpp.s
+
+base/33/test1.o: base/33/test1.cpp.o
+.PHONY : base/33/test1.o
+
+# target to build an object file
+base/33/test1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-test1.dir/build.make CMakeFiles/33-test1.dir/base/33/test1.cpp.o
+.PHONY : base/33/test1.cpp.o
+
+base/33/test1.i: base/33/test1.cpp.i
+.PHONY : base/33/test1.i
+
+# target to preprocess a source file
+base/33/test1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-test1.dir/build.make CMakeFiles/33-test1.dir/base/33/test1.cpp.i
+.PHONY : base/33/test1.cpp.i
+
+base/33/test1.s: base/33/test1.cpp.s
+.PHONY : base/33/test1.s
+
+# target to generate assembly for a file
+base/33/test1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-test1.dir/build.make CMakeFiles/33-test1.dir/base/33/test1.cpp.s
+.PHONY : base/33/test1.cpp.s
+
 base/stl/deque_demo.o: base/stl/deque_demo.cpp.o
 .PHONY : base/stl/deque_demo.o
 
@@ -1372,6 +1557,11 @@ help:
 	@echo "... 32-test2"
 	@echo "... 32-test3"
 	@echo "... 32-test4"
+	@echo "... 33-hungary"
+	@echo "... 33-prim"
+	@echo "... 33-prim1"
+	@echo "... 33-t1"
+	@echo "... 33-test1"
 	@echo "... CompilerIdCXX-CMakeCXXCompilerId"
 	@echo "... algorithm-cpp-main"
 	@echo "... stl-deque_demo"
@@ -1462,6 +1652,21 @@ help:
 	@echo "... base/32/test4.o"
 	@echo "... base/32/test4.i"
 	@echo "... base/32/test4.s"
+	@echo "... base/33/hungary.o"
+	@echo "... base/33/hungary.i"
+	@echo "... base/33/hungary.s"
+	@echo "... base/33/prim.o"
+	@echo "... base/33/prim.i"
+	@echo "... base/33/prim.s"
+	@echo "... base/33/prim1.o"
+	@echo "... base/33/prim1.i"
+	@echo "... base/33/prim1.s"
+	@echo "... base/33/t1.o"
+	@echo "... base/33/t1.i"
+	@echo "... base/33/t1.s"
+	@echo "... base/33/test1.o"
+	@echo "... base/33/test1.i"
+	@echo "... base/33/test1.s"
 	@echo "... base/stl/deque_demo.o"
 	@echo "... base/stl/deque_demo.i"
 	@echo "... base/stl/deque_demo.s"

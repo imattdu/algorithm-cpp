@@ -1,6 +1,8 @@
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/test-t1.dir
+/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/33-test1.dir
+/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/33-t1.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/32-test3.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/32-test4.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/32-test2.dir
@@ -12,7 +14,9 @@
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/31-nQueen.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/13-qjh.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/31-dfs_graph.dir
+/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/33-prim1.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/32-dijkstra2.dir
+/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/33-prim.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/31-bfs_graph.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/31-arrangeNumber.dir
@@ -24,6 +28,7 @@
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/21-union1.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/21-doubleLinkedList.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/stl-m_orderedmap.dir
+/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/33-hungary.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/21-union.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/21-headSort1.dir
 /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles/stl-stack_demo.dir

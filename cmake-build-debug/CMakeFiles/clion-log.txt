@@ -26,6 +26,11 @@
     -- src/32-test2.cpp will be compiled to bin/32-test2
     -- src/32-test3.cpp will be compiled to bin/32-test3
     -- src/32-test4.cpp will be compiled to bin/32-test4
+    -- src/33-hungary.cpp will be compiled to bin/33-hungary
+    -- src/33-prim.cpp will be compiled to bin/33-prim
+    -- src/33-prim1.cpp will be compiled to bin/33-prim1
+    -- src/33-t1.cpp will be compiled to bin/33-t1
+    -- src/33-test1.cpp will be compiled to bin/33-test1
     -- src/stl-deque_demo.cpp will be compiled to bin/stl-deque_demo
     -- src/stl-m_orderedmap.cpp will be compiled to bin/stl-m_orderedmap
     -- src/stl-stack_demo.cpp will be compiled to bin/stl-stack_demo

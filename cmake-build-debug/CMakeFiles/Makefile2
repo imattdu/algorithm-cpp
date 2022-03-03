@@ -65,6 +65,8 @@ CMAKE_BINARY_DIR = /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/all
 all: CMakeFiles/test-t1.dir/all
+all: CMakeFiles/33-test1.dir/all
+all: CMakeFiles/33-t1.dir/all
 all: CMakeFiles/32-test3.dir/all
 all: CMakeFiles/32-test4.dir/all
 all: CMakeFiles/32-test2.dir/all
@@ -76,7 +78,9 @@ all: CMakeFiles/31-bfs_11.dir/all
 all: CMakeFiles/31-nQueen.dir/all
 all: CMakeFiles/13-qjh.dir/all
 all: CMakeFiles/31-dfs_graph.dir/all
+all: CMakeFiles/33-prim1.dir/all
 all: CMakeFiles/32-dijkstra2.dir/all
+all: CMakeFiles/33-prim.dir/all
 all: CMakeFiles/31-bfs_graph.dir/all
 all: CMakeFiles/31-arrangeNumber.dir/all
 all: CMakeFiles/31-test1.dir/all
@@ -87,6 +91,7 @@ all: CMakeFiles/21-heapSort.dir/all
 all: CMakeFiles/21-union1.dir/all
 all: CMakeFiles/21-doubleLinkedList.dir/all
 all: CMakeFiles/stl-m_orderedmap.dir/all
+all: CMakeFiles/33-hungary.dir/all
 all: CMakeFiles/21-union.dir/all
 all: CMakeFiles/21-headSort1.dir/all
 all: CMakeFiles/stl-stack_demo.dir/all
@@ -105,6 +110,8 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/clean
 clean: CMakeFiles/test-t1.dir/clean
+clean: CMakeFiles/33-test1.dir/clean
+clean: CMakeFiles/33-t1.dir/clean
 clean: CMakeFiles/32-test3.dir/clean
 clean: CMakeFiles/32-test4.dir/clean
 clean: CMakeFiles/32-test2.dir/clean
@@ -116,7 +123,9 @@ clean: CMakeFiles/31-bfs_11.dir/clean
 clean: CMakeFiles/31-nQueen.dir/clean
 clean: CMakeFiles/13-qjh.dir/clean
 clean: CMakeFiles/31-dfs_graph.dir/clean
+clean: CMakeFiles/33-prim1.dir/clean
 clean: CMakeFiles/32-dijkstra2.dir/clean
+clean: CMakeFiles/33-prim.dir/clean
 clean: CMakeFiles/31-bfs_graph.dir/clean
 clean: CMakeFiles/31-arrangeNumber.dir/clean
 clean: CMakeFiles/31-test1.dir/clean
@@ -127,6 +136,7 @@ clean: CMakeFiles/21-heapSort.dir/clean
 clean: CMakeFiles/21-union1.dir/clean
 clean: CMakeFiles/21-doubleLinkedList.dir/clean
 clean: CMakeFiles/stl-m_orderedmap.dir/clean
+clean: CMakeFiles/33-hungary.dir/clean
 clean: CMakeFiles/21-union.dir/clean
 clean: CMakeFiles/21-headSort1.dir/clean
 clean: CMakeFiles/stl-stack_demo.dir/clean
@@ -145,7 +155,7 @@ clean: CMakeFiles/13-lcus.dir/clean
 CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/build.make CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/build.make CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target CompilerIdCXX-CMakeCXXCompilerId"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target CompilerIdCXX-CMakeCXXCompilerId"
 .PHONY : CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/all
 
 # Build rule for subdir invocation for target.
@@ -171,7 +181,7 @@ CMakeFiles/CompilerIdCXX-CMakeCXXCompilerId.dir/clean:
 CMakeFiles/test-t1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test-t1.dir/build.make CMakeFiles/test-t1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test-t1.dir/build.make CMakeFiles/test-t1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target test-t1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target test-t1"
 .PHONY : CMakeFiles/test-t1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -189,6 +199,58 @@ test-t1: CMakeFiles/test-t1.dir/rule
 CMakeFiles/test-t1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test-t1.dir/build.make CMakeFiles/test-t1.dir/clean
 .PHONY : CMakeFiles/test-t1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/33-test1.dir
+
+# All Build rule for target.
+CMakeFiles/33-test1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-test1.dir/build.make CMakeFiles/33-test1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-test1.dir/build.make CMakeFiles/33-test1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target 33-test1"
+.PHONY : CMakeFiles/33-test1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/33-test1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/33-test1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/33-test1.dir/rule
+
+# Convenience name for target.
+33-test1: CMakeFiles/33-test1.dir/rule
+.PHONY : 33-test1
+
+# clean rule for target.
+CMakeFiles/33-test1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-test1.dir/build.make CMakeFiles/33-test1.dir/clean
+.PHONY : CMakeFiles/33-test1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/33-t1.dir
+
+# All Build rule for target.
+CMakeFiles/33-t1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-t1.dir/build.make CMakeFiles/33-t1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-t1.dir/build.make CMakeFiles/33-t1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target 33-t1"
+.PHONY : CMakeFiles/33-t1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/33-t1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/33-t1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/33-t1.dir/rule
+
+# Convenience name for target.
+33-t1: CMakeFiles/33-t1.dir/rule
+.PHONY : 33-t1
+
+# clean rule for target.
+CMakeFiles/33-t1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-t1.dir/build.make CMakeFiles/33-t1.dir/clean
+.PHONY : CMakeFiles/33-t1.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/32-test3.dir
@@ -275,7 +337,7 @@ CMakeFiles/32-test2.dir/clean:
 CMakeFiles/stl-deque_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-deque_demo.dir/build.make CMakeFiles/stl-deque_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-deque_demo.dir/build.make CMakeFiles/stl-deque_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target stl-deque_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target stl-deque_demo"
 .PHONY : CMakeFiles/stl-deque_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -477,6 +539,32 @@ CMakeFiles/31-dfs_graph.dir/clean:
 .PHONY : CMakeFiles/31-dfs_graph.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/33-prim1.dir
+
+# All Build rule for target.
+CMakeFiles/33-prim1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim1.dir/build.make CMakeFiles/33-prim1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim1.dir/build.make CMakeFiles/33-prim1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target 33-prim1"
+.PHONY : CMakeFiles/33-prim1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/33-prim1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/33-prim1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/33-prim1.dir/rule
+
+# Convenience name for target.
+33-prim1: CMakeFiles/33-prim1.dir/rule
+.PHONY : 33-prim1
+
+# clean rule for target.
+CMakeFiles/33-prim1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim1.dir/build.make CMakeFiles/33-prim1.dir/clean
+.PHONY : CMakeFiles/33-prim1.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/32-dijkstra2.dir
 
 # All Build rule for target.
@@ -501,6 +589,32 @@ CMakeFiles/32-dijkstra2.dir/rule: cmake_check_build_system
 CMakeFiles/32-dijkstra2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/32-dijkstra2.dir/build.make CMakeFiles/32-dijkstra2.dir/clean
 .PHONY : CMakeFiles/32-dijkstra2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/33-prim.dir
+
+# All Build rule for target.
+CMakeFiles/33-prim.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim.dir/build.make CMakeFiles/33-prim.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim.dir/build.make CMakeFiles/33-prim.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target 33-prim"
+.PHONY : CMakeFiles/33-prim.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/33-prim.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/33-prim.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/33-prim.dir/rule
+
+# Convenience name for target.
+33-prim: CMakeFiles/33-prim.dir/rule
+.PHONY : 33-prim
+
+# clean rule for target.
+CMakeFiles/33-prim.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-prim.dir/build.make CMakeFiles/33-prim.dir/clean
+.PHONY : CMakeFiles/33-prim.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/31-bfs_graph.dir
@@ -743,7 +857,7 @@ CMakeFiles/21-doubleLinkedList.dir/clean:
 CMakeFiles/stl-m_orderedmap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-m_orderedmap.dir/build.make CMakeFiles/stl-m_orderedmap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-m_orderedmap.dir/build.make CMakeFiles/stl-m_orderedmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target stl-m_orderedmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target stl-m_orderedmap"
 .PHONY : CMakeFiles/stl-m_orderedmap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -761,6 +875,32 @@ stl-m_orderedmap: CMakeFiles/stl-m_orderedmap.dir/rule
 CMakeFiles/stl-m_orderedmap.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-m_orderedmap.dir/build.make CMakeFiles/stl-m_orderedmap.dir/clean
 .PHONY : CMakeFiles/stl-m_orderedmap.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/33-hungary.dir
+
+# All Build rule for target.
+CMakeFiles/33-hungary.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-hungary.dir/build.make CMakeFiles/33-hungary.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-hungary.dir/build.make CMakeFiles/33-hungary.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target 33-hungary"
+.PHONY : CMakeFiles/33-hungary.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/33-hungary.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/33-hungary.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/33-hungary.dir/rule
+
+# Convenience name for target.
+33-hungary: CMakeFiles/33-hungary.dir/rule
+.PHONY : 33-hungary
+
+# clean rule for target.
+CMakeFiles/33-hungary.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/33-hungary.dir/build.make CMakeFiles/33-hungary.dir/clean
+.PHONY : CMakeFiles/33-hungary.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/21-union.dir
@@ -821,7 +961,7 @@ CMakeFiles/21-headSort1.dir/clean:
 CMakeFiles/stl-stack_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-stack_demo.dir/build.make CMakeFiles/stl-stack_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stl-stack_demo.dir/build.make CMakeFiles/stl-stack_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target stl-stack_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target stl-stack_demo"
 .PHONY : CMakeFiles/stl-stack_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -951,7 +1091,7 @@ CMakeFiles/13-unique.dir/clean:
 CMakeFiles/algorithm-cpp-main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithm-cpp-main.dir/build.make CMakeFiles/algorithm-cpp-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithm-cpp-main.dir/build.make CMakeFiles/algorithm-cpp-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target algorithm-cpp-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/matt/workspace/cpp/algorithm-cpp/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target algorithm-cpp-main"
 .PHONY : CMakeFiles/algorithm-cpp-main.dir/all
 
 # Build rule for subdir invocation for target.
