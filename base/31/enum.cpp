@@ -1,21 +1,22 @@
 #include <iostream>
-#include <algorithm>
 #include <queue>
+#include <algorithm>
 #include <unordered_map>
 
 using namespace std;
 
 int bfs(string start) {
-    int dx[4] = {-1, 0, 1, 0}, dy[4] = {0, 1, 0 , -1};
+    int dx[4] = {-1, 0, 1, 0}, dy[4] = {0, 1, 0, -1};
     string end = "12345678x";
     queue<string> q;
     q.push(start);
-    unordered_map<string, int> dist;
-    dist[start] = 0;
-    while (!q.empty()) {
+    unordered_map<string, int> d;
+    d[start] = 0;
+
+    while(!q.empty()) {
         auto t = q.front();
         q.pop();
-        int distance = dist[t];
+        int distance = d[t];
         if (t == end) return distance;
         int k = t.find('x');
         int x = k / 3, y = k % 3;
@@ -23,8 +24,8 @@ int bfs(string start) {
             int a = x + dx[i], b = y + dy[i];
             if (a >= 0 && a < 3 && b >= 0 && b < 3) {
                 swap(t[k], t[a * 3 + b]);
-                if (!dist[t]) {
-                    dist[t] = distance + 1;
+                if (!d.count(t)) {
+                    d[t] = distance + 1;
                     q.push(t);
                 }
                 swap(t[k], t[a * 3 + b]);
@@ -35,7 +36,7 @@ int bfs(string start) {
 }
 
 int main() {
-    string start = "";
+    string start;
     for (int i = 0; i < 9; i++) {
         char c;
         cin >> c;

@@ -3,6 +3,5 @@
 using namespace std;
 
 int main() {
-    cout << 100;
-    return 0;
+    cout << 1;
 }

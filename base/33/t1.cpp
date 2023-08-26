@@ -1,47 +1,32 @@
-#include <iostream>
-#include <cstring>
+#include <bits/stdc++.h>
 
 using namespace std;
-const int N = 510, INF = 0x3f3f3f3f;
-int g[N][N], dist[N];
-bool st[N];
-int n, m, a, b, w;
+const int N = 13;
+char g[N][N];
+bool col[N], dg[2 * N], udg[2 * N];
+int n;
 
-
-int prim() {
-    memset(dist, 0x3f, sizeof dist);
-    int res = 0;
+void dfs(int u) {
+    if (u == n) {
+        for (int i = 0; i < n; i++) printf("%s\n", g[i]);
+        puts("");
+        return;
+    }
     for (int i = 0; i < n; i++) {
-        int t = -1;
-        for (int j = 1; j <= n; j++) {
-            if (!st[j] && (t == -1 || dist[j] < dist[t])) t = j;
+        if (!col[i] && !dg[i - u + n] && !udg[i + u]) {
+            col[i] = dg[i - u + n] = udg[i + u] = true;
+            g[u][i] = 'Q';
+            dfs(u + 1);
+            col[i] = dg[i - u + n] = udg[i + u] = false;
+            g[u][i] = '.';
         }
-
-        if (i && dist[t] == INF) return INF;
-        if (i) res += dist[t];
-        st[t] = true;
-        for (int j = 1; j <= n; j++) dist[j] = min(dist[j], g[t][j]);
     }
 
-    return res;
 }
 
 int main() {
-    cin >> n >> m;
-    for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= n; j++) {
-            if (i != j) g[i][j] = INF;
-        }
-    }
-
-    while (m--) {
-        cin >> a >> b >> w;
-        g[a][b] = g[b][a] = min(g[a][b], w);
-    }
-
-    int res = prim();
-    if (res == INF) puts("impossible");
-    else cout << res;
+    cin >> n;
+    for (int i = 0; i < n; i++) for (int j = 0; j < n; j++) g[i][j] = '.';
+    dfs(0);
     return 0;
-
 }
